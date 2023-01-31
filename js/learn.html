@@ -6,7 +6,11 @@
         <FORM>
             <INPUT TYPE="button"
                 VALUE="click here"
-                onclick="alert('you clicked the button')">
+                onclick="display()">
         </FORM>
     </BODY>
+    <script>function display(){
+        alert("you have clicked the button");
+        document.write("<h2>this should work only if clicked</h2>");
+    }</script>
 </HTML>
